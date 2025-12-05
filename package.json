@@ -1,11 +1,11 @@
 {
-  "name": "kpi",
+  "name": "kpi-vercel-demo",
   "version": "1.0.0",
-  "description": "Simple Node.js Express app on Vercel",
-  "main": "index.js",
+  "description": "Simple Node.js Express app deployed on Vercel",
+  "main": "api/index.js",
   "scripts": {
-    "dev": "node index.js",
-    "start": "node index.js",
+    "dev": "node api/index.local.js",
+    "start": "node api/index.local.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
